@@ -7,7 +7,7 @@
 
 
 
-
+/* Styling for the side navigation bar */
 
  #sideNav .navbar-nav .nav-item .nav-link {
    font-weight: 800;
@@ -80,6 +80,7 @@
 } */
 
 
+/* General wrappers */
 
  #wrapper {
     overflow-x: hidden;
@@ -96,6 +97,7 @@
 }
 
 
+/* Image styling */
 
 img.resize {
 max-width:100%;
@@ -108,18 +110,18 @@ body {
 }
 
 @media (min-width: 992px) {
-  #sidebar-wrapper {
+  /* #sidebar-wrapper {
     margin-left: 0;
-  }
+  } */
 
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
   }
 
-  #wrapper.toggled #sidebar-wrapper {
+  /* #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
-  }
+  } */
 
   body {
     padding-top: 0;
@@ -128,6 +130,7 @@ body {
 
 }
 
+/* Styling for the sections of the resume */
 
 section.resume-section {
   display: flex;
@@ -154,4 +157,25 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+/* Styling for the rounded social media links */
+
+i.fab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+/* i.fab:last-child{
+    margin-right: 0;
+} */
+i.fab:hover{
+  background-color: #bd5d38;
 }
