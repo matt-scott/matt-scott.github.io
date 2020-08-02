@@ -5,14 +5,11 @@
  */
 
 
- #wrapper {
-    overflow-x: hidden;
- }
 
 
 
 
- /* #sideNav .navbar-nav .nav-item .nav-link {
+ #sideNav .navbar-nav .nav-item .nav-link {
    font-weight: 800;
    letter-spacing: 0.05rem;
    text-transform: uppercase;
@@ -29,7 +26,7 @@
      left: 0;
      display: flex;
      flex-direction: column;
-     width: 17rem;
+     width: 15rem;
      height: 100vh;
    }
    #sideNav .navbar-brand {
@@ -59,15 +56,15 @@
    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
      display: block;
    }
- } */
+ }
 
 
 
-#sidebar-wrapper {
+/* #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
   -webkit-transition: margin .25s ease-out; /*These are vendor prefixes for the transition property*/
-  -moz-transition: margin .25s ease-out;
+/*  -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
   transition: margin .25s ease-out;
   text-align: center;
@@ -80,28 +77,37 @@
 
 #sidebar-wrapper .list-group {
   width: 15rem;
-}
+} */
 
 
 
+ #wrapper {
+    overflow-x: hidden;
+ }
 
 
 #page-content-wrapper {
   min-width: 100vw;
+
 }
 
 #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
 }
 
-body { padding-top: 50px; }
+
 
 img.resize {
 max-width:100%;
 max-height:auto;
 }
 
-@media (min-width: 768px) {
+body {
+  padding-top: 3.375rem;
+  color: #6c757d;
+}
+
+@media (min-width: 992px) {
   #sidebar-wrapper {
     margin-left: 0;
   }
@@ -113,5 +119,39 @@ max-height:auto;
 
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
+  }
+
+  body {
+    padding-top: 0;
+    padding-left: 15rem;
+  }
+
+}
+
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
