@@ -10172,6 +10172,9 @@ section.project-section {
   padding-bottom: 1rem;
   max-width: 75rem;
 }
+section.project-section .project-section-content {
+  width: 100%;
+}
 section.project-section-pics {
   padding-left: 0rem;
   padding-right: 0rem;
