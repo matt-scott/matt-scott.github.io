@@ -10197,7 +10197,6 @@ section.project-section-pics {
 }
 
 .img-header {
-
   height:auto;
-  max-width:100%;
+  max-width:750px;
 }
