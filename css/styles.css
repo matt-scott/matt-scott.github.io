@@ -10196,8 +10196,8 @@ section.project-section-pics {
   }
 }
 
-.carousel-inner img {
-  margin: auto;
-  w-50;
-  align-items: center;
+.img-header {
+
+  height:auto;
+  max-width:100%;
 }
