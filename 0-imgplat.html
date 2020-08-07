@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+<link rel="stylesheet" href="baguetteBox.css">
     </head>
     <body id="page-top">
 
@@ -43,7 +44,7 @@
               <a href="engineering.html" class="btn btn-primary mb-4">Back</a>
 
               <!-- Cover image size w: 3264 H: 2448 -->
-              <img class="img-fluid d-block mx-auto mb-4 ml-5 mr-5" src="assets/img/imgplatform/1-a.jpg" alt="Imager test platform circuit board">
+              <img class="img-fluid d-block mx-auto mb-4" width="80%" src="assets/img/imgplatform/1-a.jpg" alt="Imager test platform circuit board">
 
               <!-- Project description -->
               <h5 class="card-title">Card title</h5>
@@ -71,9 +72,14 @@
                 </div>
               </div>
 
+              <div class="gallery">
+                <a href="assets/img/imgplatform/2.jpg" data-caption="Caption 1"><img class="w-75" src="assets/img/imgplatform/2.jpg"></a>
+                <a href="assets/img/imgplatform/3.png" data-caption="Caption 1"><img class="w-75" src="assets/img/imgplatform/3.png"></a>
+                <a href="assets/img/imgplatform/4.png" data-caption="Caption 1"><img class="w-75" src="assets/img/imgplatform/4.png"></a>
+              </div>
 
               <!-- Back button -->
-              <a href="engineering.html" class="btn btn-primary">Back</a>
+              <a href="engineering.html" class="btn btn-primary mt-4">Back</a>
 
             </div>
           </section>
@@ -87,7 +93,12 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
 
-
+<script src="baguetteBox.js" async></script>
+<script>
+window.addEventListener('load', function() {
+  baguetteBox.run('.gallery');
+});
+</script>
         <!-- Footer -->
         <footer class="page-footer font-small bg-white">
           <!-- Copyright -->
