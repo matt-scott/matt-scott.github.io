@@ -31,14 +31,14 @@ margin-right: auto;
 }
 
 
-.dropdown-menu a{color: rgba(255,255,255,.75); text-decoration: none;}
+.dropdown-menu a{color: #999c8d; text-decoration: none;}
 .dropdown-menu {
   background-color: #343a40;
   border: none;
 }
 
 .dropdown-item:hover {
-  color: #fff;
+  color: rgba(255,255,255,.75);
   background-color: #343a40;
 }
 
