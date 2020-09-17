@@ -8,7 +8,7 @@
 
 
 /* Styling for the side navigation bar */
-
+/*
  #sideNav .navbar-nav .nav-item .nav-link {
    font-weight: 800;
    letter-spacing: 0.05rem;
@@ -57,7 +57,7 @@
    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
      display: block;
    }
- }
+ } */
 
 
 
@@ -83,57 +83,70 @@
 
 /* General wrappers */
 
- #wrapper {
+ /* #wrapper {
     overflow-x: hidden;
- }
+ } */
 
-
+/*
 #page-content-wrapper {
   min-width: 100vw;
 
-}
+} */
 
-#wrapper.toggled #sidebar-wrapper {
+/* #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
+} */
+
+
+@media (min-width: 768px) {
+.navbar-brand {
+  position:absolute;
 }
-
-
+}
 /* Image styling */
 
 img.resize {
-max-width:100%;
+max-width:50%;
 max-height:auto;
+display:block;
+margin-left: auto;
+margin-right: auto;
 }
 
-body {
-  padding-top: 3.375rem;
+/* body {
+  padding-top: 20rem;
   color: #6c757d;
+} */
+
+.wrapper{
+  padding-top:70px;
 }
 
 @media (min-width: 992px) {
   /* #sidebar-wrapper {
     margin-left: 0;
   } */
-
+/*
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
-  }
+  } */
 
   /* #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   } */
 
-  body {
+  /* body {
     padding-top: 0;
     padding-left: 15rem;
-  }
+  } */
 
 }
 
+
 /* Styling for the sections of the resume */
 
-section.resume-section {
+/* section.resume-section {
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -158,9 +171,13 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-}
+} */
 
 /* Styling for the rounded social media links */
+
+.navbar .container .navbar-brand{
+  font-size:15px;
+}
 
 i.fab {
   display: inline-flex;
