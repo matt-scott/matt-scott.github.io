@@ -42,6 +42,12 @@ margin-right: auto;
   background-color: #343a40;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #343a40;
+}
+
 /* Styling for the sections of the resume */
 
 /* section.resume-section {
