@@ -47,7 +47,26 @@ margin-right: auto;
   text-decoration: none;
   background-color: #343a40;
 }
+.img-responsive {
+  max-width:calc(100% - 100px);
+  max-height:calc(100% - 100px);
+}
+.modal {
+    text-align:center;
+}
+/* .modal {
+  max-width:calc(100% - 80px);
+  max-height:calc(100% - 80px);
+}
+.modal-dialog {
+    display: inline-block;
+    width: auto;
+}
 
+.modal .content {
+  overflow:auto;
+  max-height:calc(100vh - 125px);
+} */
 /* Styling for the sections of the resume */
 
 /* section.resume-section {
