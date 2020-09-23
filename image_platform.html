@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Matt Scott Portfolio</title>
+
+<!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <!-- Favicon code-->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" >
+</head>
+
+<!-- Navbar -->
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Matt Scott Portfolio</a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Teaching</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="teaching_philosophy.html">Philosophy</a>
+                  <a class="dropdown-item" href="teaching_experience.html">Experience</a>
+                  <a class="dropdown-item" href="teaching_projects.html">Projects</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Engineering</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="engineering_experience.html">Experience</a>
+                  <a class="dropdown-item active" href="engineering_projects.html">Projects<span class="sr-only">(current)</span></a>
+                </div>
+            </li>
+          <li>
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </body>
+
+<!-- Main content -->
+  <div class="wrapper">
+    <main role="main" class="container">
+
+      <!-- Page Content-->
+      <div class="container-fluid p-3">
+        <section class="project-section">
+          <div class="project-section-content">
+
+            <!-- Cover image size w: 3264 H: 2448 -->
+            <img class="img-fluid d-block mx-auto mb-4" width="80%" src="assets/img/imgplatform/1-a.jpg" alt="Imager test platform circuit board">
+
+            <!-- Back button -->
+            <a href="engineering_projects.html" class="btn btn-primary mb-4">Back</a>
+      <div class="jumbotron pt-4">
+            <!-- Project description -->
+            <h1>Imager Test Platform</h1>
+            <h5 class="pb-3">Directed Project (Thesis), Purdue</h5>
+            <p>My Masters at Purdue culminated in a research project involving a self-powered imaging chip. The chip, designed and fabricated by a previous graduate student, could harvest energy through the same pixels with which it took images. I was tasked with developing a test platform to control and read out the imaging chip. The microcontroller unit (MCU) at the platform's core was an Atmel SAML21 32 bit MCU. I designed the platform to allow easy access to important signals. The design facilitated debugging using electronic test equipment such as oscilloscopes and multimeters.</p>
+            <p>I researched printed circuit board (PCB) design techniques to reduce electromagnetic interference (EMI) on the platform PCB. After careful layout of the board, the design was sent to Osh Park for manufacturing. Upon receipt of the manufactured board, I soldered and tested functional component blocks sequentially to verify platform operability.</p>
+            <p>After verification of each of the platform's functional blocks, I tested the ability of the MCU to generate the timing signals necessary to control the imager chip. The signals were tested with a logic analyzer. I also successfully generated and tested a model to estimate the duration of the timing signal sequence. Finally, I tested the ability of the platform to capture an image from the imager chip.</p>
+            <p>The project was summarized in a thesis document and defended orally in front of a committee of professors. The platform will be used for future experimentation with the imager chip. Recommendations for future development of the project were made.</p>
+            <p class="font-weight-bold">Design</p>
+            <ul>
+             <li>Review literature pertinent to the area of research and project scope</li>
+             <li>Define and agree upon project scope and research questions with advising professor</li>
+             <li>Study and interpret existing schematics and code to gain system expertise</li>
+             <li>Collaborate with professor to determine test platform functionalities</li>
+             <li>Design and revise top level block diagram of system to aid in schematic capture and communication efforts with professor (Microsoft Visio)</li>
+             <li>Design a schematic for the test platform​​ (KiCad)</li>
+             <li>Design and fabricate a PCB for the test platform, utilizing best practice PCB design techniques(KiCad)</li>
+            </ul>
+            <p class="font-weight-bold">Testing</p>
+
+            <ul>
+             <li>Design a test methodology to ensure functional block operability</li>
+             <li>Execute test plan and record and interpret data to verify functional block operability (oscilloscopes, power supplies, multimeters, PC terminal, MATLAB)</li>
+             <li>Write code in C for an Atmel SAML21 microcontroller unit</li>
+             <li>Write code in MATLAB</li>
+             <li>Develop and test model to estimate timing of signals generated by the MCU</li>
+             <li>Troubleshoot and test the platform's ability to acquire an image from the imager chip</li>
+             <li>Deliver final documentation of completed project to professor</li>
+             <li>Defend project in an oral presentation in front of committee of professors</li>
+             <li>Identify key areas of future development for the project</li>
+            </ul>
+      </div>
+            <!-- Project photos -->
+
+<!-- <div class="overflow-auto pic-box">
+  <div class="container p-5"> -->
+            <a href="assets/img/imgplatform/2.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/2.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/3.png"><img class="img-responsive pb-4" src="assets/img/imgplatform/3.png" alt="First slide"></a>
+            <a href="assets/img/imgplatform/4.png"><img class="img-responsive pb-4" src="assets/img/imgplatform/4.png" alt="First slide"></a>
+            <a href="assets/img/imgplatform/5.png"><img class="img-responsive pb-4" src="assets/img/imgplatform/5.png" alt="First slide"></a>
+            <a href="assets/img/imgplatform/6.png"><img class="img-responsive pb-4" src="assets/img/imgplatform/6.png" alt="First slide"></a>
+            <a href="assets/img/imgplatform/7.png"><img class="img-responsive pb-4" src="assets/img/imgplatform/7.png" alt="First slide"></a>
+            <a href="assets/img/imgplatform/8.png"><img class="img-responsive pb-4" src="assets/img/imgplatform/8.png" alt="First slide"></a>
+            <a href="assets/img/imgplatform/9.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/9.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/10.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/10.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/11.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/11.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/12.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/12.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/13.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/13.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/14.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/14.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/15.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/15.jpg" alt="First slide"></a>
+            <a href="assets/img/imgplatform/16.jpg"><img class="img-responsive pb-4" src="assets/img/imgplatform/16.jpg" alt="First slide"></a>
+<!-- </div>
+</div> -->
+            <!-- Back button -->
+            <a href="engineering_projects.html" class="btn btn-primary">Back</a>
+
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+
+<!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Footer -->
+  <footer class="page-footer font-small blue pt-3">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">&copy <script>document.write(new Date().getFullYear())</script> Copyright: Matthew Scott
+      <p>Site last updated: 1st August, 2020</p>
+    </div>
+  </footer>
+
+
+</html>
