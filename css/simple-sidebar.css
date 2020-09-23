@@ -96,6 +96,16 @@ section.resume-section .resume-section-content {
   }
 } */
 
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pic-box {
+  max-height: 700px;
+}
+
 /* Styling for the rounded social media links */
 i.fab {
   display: inline-flex;
