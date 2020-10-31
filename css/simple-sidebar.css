@@ -12,6 +12,26 @@
 }
 }
 
+.uppercase { text-transform: uppercase; }
+.bold {font-weight:bold;}
+
+.text-mypage {
+  color: #bd5d37 !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a {
+  color: #bd5d37;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #824027;
+  text-decoration: underline;
+}
+
 /* Image styling */
 img.resize {
 max-width:20%;
@@ -27,10 +47,7 @@ margin-right: auto;
   padding-top:70px;
 }
 
-.jumbotron{
-  background-color: white;
-  padding-top:0px;
-}
+
 
 
 @media (min-width: 992px) {
