@@ -15,7 +15,32 @@
 .uppercase { text-transform: uppercase; }
 .bold {font-weight:bold;}
 
-.text-mypage {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1, .h1 {
+  font-size: 5rem;
+}
+
+h2, .h2 {
+  font-size: 3.5rem;
+}
+
+h3, .h3 {
+  font-size: 2rem;
+}
+
+.text-primary {
+  color: #bd5d37 !important;
+}
+
+.text-highlight {
   color: #bd5d37 !important;
   text-decoration: none;
   background-color: transparent;
@@ -48,7 +73,23 @@ margin-right: auto;
 }
 
 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #343a40;
+}
 
+.subheading {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+body {
+  color: #6c757d;
+}
 
 @media (min-width: 992px) {
 }
@@ -81,50 +122,17 @@ margin-right: auto;
     text-align:center;
 }
 
-/* .carousel-item {
-  max-height:50%;
-} */
-/* .modal {
-  max-width:calc(100% - 80px);
-  max-height:calc(100% - 80px);
-}
-.modal-dialog {
-    display: inline-block;
-    width: auto;
-}
 
-.modal .content {
-  overflow:auto;
-  max-height:calc(100vh - 125px);
-} */
 /* Styling for the sections of the resume */
 
-/* section.resume-section {
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
-} */
-/* section.resume-section .resume-section-content {
-  width: 100%;
-} */
+.home-content{
 
-/* @media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-} */
-/* @media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-} */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+    width: 100%;
+}
+
 
 /* .img-responsive {
   max-width: 100%;
@@ -137,7 +145,7 @@ margin-right: auto;
 }
 
 /* Styling for the rounded social media links */
-i.fab {
+.social-icons .social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -146,12 +154,13 @@ i.fab {
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-right: 1rem;
 }
-/* i.fab:last-child{
-    margin-right: 0;
-} */
-i.fab:hover{
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover{
   background-color: #bd5d37;
+  text-decoration: none;
 }
