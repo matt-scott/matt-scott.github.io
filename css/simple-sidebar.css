@@ -72,6 +72,11 @@ margin-right: auto;
   padding-top:70px;
 }
 
+/* Main content styling */
+.wrapper_projects{
+  padding-top:62px;
+}
+
 @media (min-width: 576px) {
 }
 
